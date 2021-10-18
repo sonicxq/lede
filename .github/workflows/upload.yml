@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-
 - name: upload firmware
-
+run: |
 cd "/home/runner"
 cp -rf "*.img.gz" "${GITHUB_WORKSPACE}/target/"
