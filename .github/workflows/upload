@@ -1,0 +1,3 @@
+name: upload firmware
+cd "/home/runner"
+cp -rf "*.img.gz" "${GITHUB_WORKSPACE}/target/"
