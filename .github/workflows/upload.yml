@@ -1,4 +1,4 @@
-name: NanoPi R2S LEDE
+    name: NanoPi R2S LEDE
 on:
   repository_dispatch:
   workflow_dispatch:
@@ -7,4 +7,4 @@ jobs:
 - name: upload firmware
 run: |
 cd "/home/runner"
-cp -rf "*.img.gz" "${GITHUB_WORKSPACE}/target/"
+#cp -rf "*.img.gz" "${GITHUB_WORKSPACE}/target/"
